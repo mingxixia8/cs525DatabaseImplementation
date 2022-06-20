@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/mx/cs525-s22-group24/assign4'
+gcc -o test_assign4_1 test_assign4_1.c storage_mgr.c buffer_mgr.c buffer_mgr_stat.c dberror.c expr.c record_mgr.c rm_serializer.c btree_mgr.c -g -lm
+ 
+gcc -o test_expr test_expr.c storage_mgr.c buffer_mgr.c buffer_mgr_stat.c dberror.c expr.c record_mgr.c rm_serializer.c btree_mgr.c -g -lm
+make: Leaving directory `/Users/mx/cs525-s22-group24/assign4'
+ 

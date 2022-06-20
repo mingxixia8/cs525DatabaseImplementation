@@ -1,0 +1,28 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: clang build active file",
+			"command": "/usr/bin/clang",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"test_assign4_1.c storage_mgr.c buffer_mgr.c buffer_mgr_stat.c dberror.c expr.c record_mgr.c rm_serializer.c btree_mgr.c",
+				"-o",
+				"assign4/test_assign4_1"
+			],
+			"options": {
+				"cwd": "/Users/mx/cs525-s22-group24/assign4"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "compiler: /usr/bin/clang"
+		}
+	]
+}
